@@ -1,0 +1,27 @@
+{
+    "name": "Universal Controller",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "joystickbit": "github:tinkertanker/pxt-joystickbit#v1.0.4",
+        "Value Packer": "github:emmetbrickhacker/pxt-valpacker#479374459933e3efc2f7003bcf83141f7c0bc548"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "7.0.61",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
